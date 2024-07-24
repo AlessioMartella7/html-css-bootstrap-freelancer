@@ -1,0 +1,12 @@
+header {
+    height: 100px;
+}
+
+[class^=row] {
+    border: 2px dashed red;
+}
+
+[class^=col] {
+    border: 2px dashed black;
+    background-color: bisque;
+}
