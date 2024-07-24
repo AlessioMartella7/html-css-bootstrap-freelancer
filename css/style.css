@@ -1,5 +1,6 @@
-header {
-    height: 100px;
+
+[class^=container] {
+    border: 2px dashed rgb(21, 163, 85);
 }
 
 [class^=row] {
@@ -9,4 +10,15 @@ header {
 [class^=col] {
     border: 2px dashed black;
     background-color: bisque;
+}
+
+
+/* generics */
+
+header {
+    height: 100px;
+}
+
+.main-content {
+    height: 500px;
 }
