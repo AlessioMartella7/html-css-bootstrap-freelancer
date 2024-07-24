@@ -23,3 +23,7 @@ header {
     height: 500px;
 }
 
+.form {
+    height: 350px;
+    background-color: blue;
+}
