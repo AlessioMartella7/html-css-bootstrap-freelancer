@@ -13,22 +13,17 @@
 
 /* generics */
 
-.form {
-    height: 350px;
-    background-color: blue;
-}
-
+/* custom colors */
 .my-blue-bg {
     background-color: #2C3E50;
 }
 
-.my-blue {
-    color: #2C3E50;
-
-}
-
 .my-start-bg {
     background-color: #1ABC9C;
+}
+
+.my-blue {
+    color: #2C3E50;
 }
 
 img {
@@ -45,9 +40,17 @@ img {
     background-color: #fff;
 }
 
-/* bottone download */
+/* bottone download sezione about */
 
 #about .btn { 
     --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1ABC9C;
+}
+
+#contact ::placeholder {
+    color: #2C3E50;
+}
+
+#contact .btn:hover {
     --bs-btn-hover-bg: #1ABC9C;
 }
