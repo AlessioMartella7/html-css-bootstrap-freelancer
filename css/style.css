@@ -26,3 +26,6 @@
 .my-blue-bg {
     background-color: #2C3E50;
 }
+img {
+    max-width: 100%;
+}
