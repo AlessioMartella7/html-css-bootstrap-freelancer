@@ -1,21 +1,12 @@
 
 
-
-[class^=row] {
-    border: 2px dashed red;
-}
-
-[class^=col] {
-    border: 2px dashed black;
-
-}
-
-
-/* generics */
-
 /* custom colors */
 .my-blue-bg {
     background-color: #2C3E50;
+}
+
+.my-lblue-bg {
+    background-color: #3A546D;
 }
 
 .my-start-bg {
@@ -26,6 +17,11 @@
     color: #2C3E50;
 }
 
+.my-start {
+    color:#1ABC9C ;
+}
+
+/* generics */
 img {
     max-width: 100%;
 }
@@ -51,6 +47,15 @@ img {
     color: #2C3E50;
 }
 
+/* bottone send sezione contact */
 #contact .btn:hover {
     --bs-btn-hover-bg: #1ABC9C;
+}
+
+footer i {
+    color: #fff;
+}
+
+.copyright p{
+    font-size: 10px;
 }
