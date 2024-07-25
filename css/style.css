@@ -13,11 +13,6 @@
 
 /* generics */
 
-
-.main-content {
-    height: 500px;
-}
-
 .form {
     height: 350px;
     background-color: blue;
@@ -26,6 +21,25 @@
 .my-blue-bg {
     background-color: #2C3E50;
 }
+
+.my-start-bg {
+    background-color: #1ABC9C;
+}
+
 img {
     max-width: 100%;
+}
+
+.ruler {
+    width: 15%;
+    height: 3px;
+    border-radius: 20px;
+}
+
+.ruler.ruler-whi {
+    background-color: #fff;
+}
+
+.ruler.ruler-blu {
+    background-color: #2C3E50;
 }
