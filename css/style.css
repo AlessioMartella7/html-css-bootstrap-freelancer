@@ -44,3 +44,10 @@ img {
 .ruler.ruler-whi {
     background-color: #fff;
 }
+
+/* bottone download */
+
+#about .btn { 
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1ABC9C;
+}
